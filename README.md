@@ -24,37 +24,33 @@ Each project is an independent repository focusing on a specific skill area with
 
 ## Project Overview
 
-### 1. Financial Data Pipeline
+### 1. Financial Data Pipeline (current work)
 Goal: Build a cloud-based infrastructure to collect and store market data such as S&P 500 or CAC 40.  
 Technologies: Python, Pub/Sub, BigQuery, Cloud Run, VM Instances. 
 Includes scripts, an automated pipeline, and dashboard integration.  
-Message: Ability to design scalable market data infrastructure.
 
-### 2. Backtesting and Simple Strategies
+
+### 2. Backtesting and Simple Strategies (not started)
 Goal: Develop a lightweight backtesting framework and test several classical strategies:  
 - Momentum (Moving Average Crossover)  
 - Mean Reversion (Bollinger Bands)  
 - Portfolio Rebalancing (60/40 Equity/Bond)  
 Includes benchmark comparison with Buy & Hold.  
-Message: Understanding and coding of quantitative strategies.
 
-### 3. Portfolio Optimization
+### 3. Portfolio Optimization (not started)
 Goal: Implement and visualize the efficient frontier for a multi-asset portfolio.  
 Constraints: weight limits, no short-selling, limited leverage  
 Extensions: shrinkage covariance, Black-Litterman, risk-parity  
 Visualization in 2D/3D.  
-Message: Application of quantitative finance in a realistic setting.
 
-### 4. Volatility and Risk Modelling
+### 4. Volatility and Risk Modelling (not started)
 Goal: Model and quantify portfolio risk using time-series techniques.  
 Includes GARCH, EGARCH, Heston simulations, comparison of realized vs implied volatility, and Monte Carlo estimation of Value-at-Risk.  
-Message: Mastery of quantitative risk modeling tools.
 
-### 5. Machine Learning for Finance (Optional)
+### 5. Machine Learning for Finance (not started)
 Goal: Explore ML methods for predicting returns or volatility.  
 Models: LSTM, Random Forest  
 Methodology: time-based train/test split, overfitting analysis, and model limitations.  
-Message: Application of ML to financial data with methodological rigor.
 
 ## Technical Organization
 
@@ -69,8 +65,6 @@ project-name/
 ├── .gitignore
 └── LICENSE
 
-vbnet
-Copier le code
 
 ## Portfolio Presentation
 
@@ -90,13 +84,11 @@ quant-portfolio/
 └── slides/
 └── quant_portfolio_presentation.pdf
 
-markdown
-Copier le code
 
 ## Global Tech Stack
 
 - Python (Pandas, NumPy, Scikit-learn, Statsmodels, Plotly)
-- Google Cloud Platform (Pub/Sub, BigQuery, Cloud Run, Scheduler)
+- Google Cloud Platform (Pub/Sub, BigQuery, Cloud Run, Scheduler, VM Instances, Vertex AI)
 - Docker, GitHub Actions (CI/CD)
 - Jupyter, Streamlit, Looker Studio
 - Quantitative Finance: Markowitz, GARCH, VaR, Machine Learning for time-series
