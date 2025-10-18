@@ -25,7 +25,7 @@ Each project is an independent repository focusing on a specific skill area with
 ## Project Overview
 
 ### 1. Financial Data Pipeline (current work)
-Goal: Build a cloud-based infrastructure to collect and store market data such as S&P 500 or CAC 40.  
+Goal: Build a cloud-based infrastructure to collect and store market data : NASDAQ, NYSE and NYSE American (previously American Stock Exchange)
 Technologies: Python, Pub/Sub, BigQuery, Cloud Run, VM Instances. 
 Includes scripts, an automated pipeline, and dashboard integration.  
 
