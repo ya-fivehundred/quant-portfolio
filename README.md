@@ -101,10 +101,6 @@ Copier le code
 - Jupyter, Streamlit, Looker Studio
 - Quantitative Finance: Markowitz, GARCH, VaR, Machine Learning for time-series
 
-## Author
-
-Youri  
-
 
 ## License
 
