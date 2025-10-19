@@ -14,8 +14,8 @@ The goal is not to upload dozens of exploratory notebooks, but to showcase three
 
 Each project is an independent repository focusing on a specific skill area within quantitative finance.
 
-| # | Project | Main Topic | Key Message |
-|:-:|:--------|:------------|:-------------|
+| # | Project | Main Topic | 
+|:-:|:--------|:------------|
 | 1 | [quant-data-pipeline](https://github.com/<username>/quant-data-pipeline) | Data and Infrastructure | 
 | 2 | [quant-backtesting](https://github.com/<username>/quant-backtesting) | Strategy and Performance | 
 | 3 | [quant-portfolio-optimization](https://github.com/<username>/quant-portfolio-optimization) | Portfolio Optimization |
