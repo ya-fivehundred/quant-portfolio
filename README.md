@@ -16,11 +16,11 @@ Each project is an independent repository focusing on a specific skill area with
 
 | # | Project | Main Topic | Key Message |
 |:-:|:--------|:------------|:-------------|
-| 1 | [quant-data-pipeline](https://github.com/<username>/quant-data-pipeline) | Data and Infrastructure | Ability to build and scale a financial market database |
-| 2 | [quant-backtesting](https://github.com/<username>/quant-backtesting) | Strategy and Performance | Understanding and implementation of trading logic |
-| 3 | [quant-portfolio-optimization](https://github.com/<username>/quant-portfolio-optimization) | Portfolio Optimization | Application of classical quantitative finance theory |
-| 4 | [quant-risk-modelling](https://github.com/<username>/quant-risk-modelling) | Volatility and Risk | Modeling and quantification of financial risk |
-| 5 | [quant-ml-finance (optional)](https://github.com/<username>/quant-ml-finance) | Machine Learning | Application of ML in finance with methodological rigor |
+| 1 | [quant-data-pipeline](https://github.com/<username>/quant-data-pipeline) | Data and Infrastructure | 
+| 2 | [quant-backtesting](https://github.com/<username>/quant-backtesting) | Strategy and Performance | 
+| 3 | [quant-portfolio-optimization](https://github.com/<username>/quant-portfolio-optimization) | Portfolio Optimization |
+| 4 | [quant-risk-modelling](https://github.com/<username>/quant-risk-modelling) | Volatility and Risk | 
+| 5 | [quant-ml-finance (optional)](https://github.com/<username>/quant-ml-finance) | Machine Learning |
 
 ## Project Overview
 
