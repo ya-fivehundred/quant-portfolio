@@ -10,7 +10,7 @@ from polygon.websocket.models import WebSocketMessage, Feed, Market
 
 # ========= CONFIG ==========
 POLYGON_API_KEY = "x"
-PROJECT_ID = "rugged-night-472112-i7"
+PROJECT_ID = "x"
 
 # Datasets ET tables distincts
 TABLES = {
@@ -31,17 +31,12 @@ logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s [%(levelname)s] %(message)s"
 )
-# ============================
 
-
-# ========= INIT GCP CLIENTS ==========
 bq_client = bigquery.Client(project=PROJECT_ID)
 pub_client = pubsub_v1.PublisherClient()
-# ====================================
 
 
 def get_tickers_from_bigquery(exchange: str):
-    """Récupère les tickers depuis une table BigQuery spécifique à l’exchange"""
     dataset = TABLES[exchange]["dataset"]
     table = TABLES[exchange]["table"]
     query = f"""
@@ -56,13 +51,10 @@ def get_tickers_from_bigquery(exchange: str):
 
 
 def init_pubsub_topic(exchange: str):
-    """Construit le chemin complet du topic Pub/Sub"""
     topic_name = PUBSUB_TOPICS[exchange]
     return pub_client.topic_path(PROJECT_ID, topic_name)
 
-
 def handle_msg(msgs: List[WebSocketMessage]):
-    """Callback appelé à chaque message WebSocket"""
     global all_tickers_by_exchange
 
     for m in msgs:
@@ -95,7 +87,6 @@ def handle_msg(msgs: List[WebSocketMessage]):
 
 
 def refresh_tickers_every(hours: float = 12):
-    """Recharge les tickers depuis BigQuery toutes les N heures"""
     global all_tickers_by_exchange
     last_refresh = 0
 
@@ -121,9 +112,9 @@ if __name__ == "__main__":
     # 3️⃣ Connexion WebSocket Polygon
     client = WebSocketClient(
         api_key=POLYGON_API_KEY,
-        feed=Feed.Delayed,  # ou Feed.RealTime selon ton plan
+        feed=Feed.Delayed,  # ou Feed.RealTime
         market=Market.Stocks,
     )
 
-    client.subscribe("AM.*")  # récupère les agrégats minute
+    client.subscribe("AM.*")
     client.run(handle_msg)
