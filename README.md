@@ -8,7 +8,6 @@ This portfolio presents a set of quantitative finance projects designed to demon
 2. Implementation of classical quantitative methods (backtesting, portfolio optimization, option pricing, risk modeling)
 3. Industrialization of solutions (data pipelines, cloud architecture, CI/CD, APIs, dashboards)
 
-The goal is not to upload dozens of exploratory notebooks, but to showcase three to five solid, well-documented projects that combine rigor and clarity.
 
 ## Portfolio Structure
 
