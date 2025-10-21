@@ -1,17 +1,30 @@
+"""
+Code of a Cloud run function that fetches the top 150 stocks by market capitalization from the New York Stock Exchange (XNYS)
+using the Polygon.io API, then publishes the results to a dedicated Google Cloud Pub/Sub topic.
+
+Part of a daily Cloud Run workflow, with similar scripts for NASDAQ (XNAS) and NYSE AMERICAN (XASE).
+Executions are offset to prevent API token overlap, see README in current folder for more information.
+"""
+
 import os
+import sys
 import time
 import json
 import logging
 from datetime import datetime, timezone
+from concurrent.futures import ThreadPoolExecutor, as_completed
+
 import pandas as pd
-__import__('pysqlite3')
-import sys
-sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
 from polygon import RESTClient
 from requests.exceptions import RequestException
 from tqdm import tqdm
-from concurrent.futures import ThreadPoolExecutor, as_completed
 from google.cloud import pubsub_v1
+
+__import__('pysqlite3')
+sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
+
+
+
 
 POLYGON_API_KEY = "x"
 OUTPUT_DIR = "./"
