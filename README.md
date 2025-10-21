@@ -15,7 +15,7 @@ Each project is an independent repository focusing on a specific skill area with
 
 | # | Project | Main Topic | 
 |:-:|:--------|:------------|
-| 1 | [quant-data-pipeline](https://github.com/<username>/quant-data-pipeline) | Data and Infrastructure | 
+| 1 | [quant-data-pipeline](https://github.com/ya-fivehundred/quant-portfolio/tree/portfolio/data-architecture) | Data and Infrastructure | 
 | 2 | [quant-backtesting](https://github.com/<username>/quant-backtesting) | Strategy and Performance | 
 | 3 | [quant-portfolio-optimization](https://github.com/<username>/quant-portfolio-optimization) | Portfolio Optimization |
 | 4 | [quant-risk-modelling](https://github.com/<username>/quant-risk-modelling) | Volatility and Risk | 
