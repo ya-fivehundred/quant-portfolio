@@ -9,7 +9,7 @@ from polygon import WebSocketClient
 from polygon.websocket.models import WebSocketMessage, Feed, Market
 
 # ========= CONFIG ==========
-POLYGON_API_KEY = "w3Ptqx9vtrlWWaCaKC9fu_l4mwQ7ULD6"
+POLYGON_API_KEY = "x"
 PROJECT_ID = "rugged-night-472112-i7"
 
 # Datasets ET tables distincts
