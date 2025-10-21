@@ -8,7 +8,6 @@ from google.cloud import bigquery, pubsub_v1
 from polygon import WebSocketClient
 from polygon.websocket.models import WebSocketMessage, Feed, Market
 
-# ========= CONFIG ==========
 POLYGON_API_KEY = "x"
 PROJECT_ID = "x"
 
