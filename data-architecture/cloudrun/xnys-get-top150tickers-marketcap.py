@@ -25,8 +25,7 @@ sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
 
 
 
-
-POLYGON_API_KEY = "x"
+POLYGON_API_KEY = os.getenv("api_key","x")
 OUTPUT_DIR = "./"
 TOP_N = 150
 EXCHANGES = ["XNYS"]  # XNAS, XNYS, XASE
