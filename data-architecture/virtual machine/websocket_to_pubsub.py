@@ -101,14 +101,11 @@ def refresh_tickers_every(hours: float = 12):
 if __name__ == "__main__":
     logging.info("🚀 Initialisation du flux WebSocket Polygon + Pub/Sub")
 
-    # 1️⃣ Chargement initial des tickers
     all_tickers_by_exchange = {ex: get_tickers_from_bigquery(ex) for ex in TABLES}
 
-    # 2️⃣ Thread de rafraîchissement périodique
     refresh_thread = threading.Thread(target=refresh_tickers_every, args=(12,), daemon=True)
     refresh_thread.start()
 
-    # 3️⃣ Connexion WebSocket Polygon
     client = WebSocketClient(
         api_key=POLYGON_API_KEY,
         feed=Feed.Delayed,  # ou Feed.RealTime
