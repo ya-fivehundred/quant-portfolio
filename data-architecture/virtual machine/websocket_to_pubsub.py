@@ -15,8 +15,8 @@ from polygon import WebSocketClient
 from polygon.websocket.models import WebSocketMessage, Feed, Market
 from datetime import datetime
 
-POLYGON_API_KEY = "x"
-PROJECT_ID = "x"
+POLYGON_API_KEY = os.environ.get("API_KEY")
+PROJECT_ID = os.environ.get("PR_ID")
 
 TABLES = {
     "XNAS": {"dataset": "xnas_dataset", "table": "xnas_top150tickers_marketcap"},
