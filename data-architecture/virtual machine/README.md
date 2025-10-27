@@ -5,7 +5,7 @@
 This directory contains the Python service deployed on a Google Compute Engine (GCE) virtual machine.  
 Its purpose is to maintain a continuous data pipeline between the **Polygon.io WebSocket API** and **Google Pub/Sub**, ensuring real-time (or delayed) stock market data is streamed and made available for downstream analytics in BigQuery and Looker.
 
-The service is designed to run 24/7 on a lightweight Debian VM, using `systemd` for automatic startup and recovery.
+The service is designed to run without interuption on a lightweight Debian VM, using `systemd` for automatic startup and recovery. A scheduled cloud run function has been added to shutdown the VM during the weekend, when markets are closed.
 
 ---
 
