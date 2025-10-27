@@ -25,7 +25,6 @@ daily_variation AS (
   FROM daily_prices
 )
 
--- Top 10 gain
 SELECT *
 FROM daily_variation
 QUALIFY ROW_NUMBER() OVER(PARTITION BY day ORDER BY variation_pct DESC) <= 10;
