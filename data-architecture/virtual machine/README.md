@@ -19,7 +19,7 @@ The service is designed to run without interuption on a lightweight Debian VM, u
 | **OS image** | Debian 12 (Bookworm) |
 | **Architecture** | x86_64 |
 | **Python version** | 3.13 |
-| **Status** | Running continuously via `systemd` |
+| **Status** | Running during open market days via `systemd` and shut down during weekends |
 
 The VM runs a single service responsible for ingesting and publishing market data.
 
