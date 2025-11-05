@@ -16,10 +16,11 @@ Each project is an independent repository focusing on a specific skill area with
 | # | Project | Main Topic | 
 |:-:|:--------|:------------|
 | 1 | [quant-data-architecture](https://github.com/ya-fivehundred/quant-portfolio/tree/portfolio/data-architecture) | Data and Infrastructure | 
-| 2 | [quant-backtesting](https://github.com/<username>/quant-backtesting) | Strategy and Performance (not available on github yet) | 
-| 3 | [quant-portfolio-optimization](https://github.com/<username>/quant-portfolio-optimization) | Portfolio Optimization (not available on github yet) |
-| 4 | [quant-risk-modelling](https://github.com/<username>/quant-risk-modelling) | Volatility and Risk (not started) | 
-| 5 | [quant-ml-finance (optional)](https://github.com/<username>/quant-ml-finance) | Machine Learning (not started) |
+| 2 | [quant-analysis](https://github.com/ya-fivehundred/quant-portfolio/tree/portfolio/quantitative-anaysis) | Introductory NASDAQ Quant Analysis | 
+| 3 | [quant-backtesting](https://github.com/<username>/quant-backtesting) | Strategy and Performance (not available on github yet) | 
+| 4 | [quant-portfolio-optimization](https://github.com/<username>/quant-portfolio-optimization) | Portfolio Optimization (not available on github yet) |
+| 5 | [quant-risk-modelling](https://github.com/<username>/quant-risk-modelling) | Volatility and Risk (not started) | 
+| 6 | [quant-ml-finance (optional)](https://github.com/<username>/quant-ml-finance) | Machine Learning (not started) |
 
 ## Project Overview
 
