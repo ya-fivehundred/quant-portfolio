@@ -2,7 +2,8 @@
 
 This notebook provides a **basic introduction to quantitative analysis** using minute-level NASDAQ data. It is designed as a first step for exploring market data, computing indicators, testing simple strategies, and performing portfolio simulations. The goal is to offer a hands-on experience before building a more structured and fully-featured GitHub repository with separate modules and scripts.
 
-Note: This notebook aims to demonstrate basic tools and workflows for data analysis and quantitative finance, rather than to produce exploitable or production-level insights. Calculations are performed on a limited dataset, as the cloud data ingestion architecture has only been operational since mid-October.
+**Note**: This notebook aims to **demonstrate basic tools and workflows** for data analysis and quantitative finance, rather than to produce exploitable or production-level insights. Calculations are performed on a **limited dataset**, as the cloud data ingestion architecture has only been operational since mid-October.
+
 
 ## Overview
 
