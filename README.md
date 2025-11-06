@@ -24,21 +24,21 @@ Each project is an independent repository focusing on a specific skill area with
 
 ## Project Overview
 
-### 1. Financial Data Pipeline (current work)
+### 1. Financial Data Pipeline (Done)
 
 Goal: Build a cloud-based infrastructure to collect and store market data : NASDAQ, NYSE and NYSE American (previously AMEX)
 Technologies: Python, Pub/Sub, BigQuery, Cloud Run, VM Instances. 
 Includes scripts, an automated pipeline, and dashboard integration.  
 
 
-### 2. Backtesting and Simple Strategies (not started)
+### 2. Backtesting and Simple Strategies (Current Work)
 Goal: Develop a lightweight backtesting framework and test several classical strategies:  
 - Momentum (Moving Average Crossover)  
 - Mean Reversion (Bollinger Bands)  
 - Portfolio Rebalancing (60/40 Equity/Bond)  
 Includes benchmark comparison with Buy & Hold.  
 
-### 3. Portfolio Optimization (not started)
+### 3. Portfolio Optimization (Current Work)
 Goal: Implement and visualize the efficient frontier for a multi-asset portfolio.  
 Constraints: weight limits, no short-selling, limited leverage  
 Extensions: shrinkage covariance, Black-Litterman, risk-parity  
